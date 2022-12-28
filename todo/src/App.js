@@ -1,12 +1,12 @@
-
-import './App.css';
+import "./App.css";
+import Login from './Pages/Login'
+import Signup from "./Pages/Signup";
 
 function App() {
   return (
     <div>
-      this is my todo app heloooo
+      <Login></Login>
     </div>
-    
   );
 }
 
