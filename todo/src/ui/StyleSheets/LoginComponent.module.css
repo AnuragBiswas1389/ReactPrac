@@ -5,10 +5,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    margin: 15px;
+    width: 19.5rem;
+    height: 22rem;
+    margin: auto;
+    margin-top: 5rem;
     padding: 0.5rem;
-    border-radius: 2rem;
+    border-radius: 0.2rem;
+    position: relative;
+    align-content: space-between;
+    box-sizing:border-box
 }
 
 .log{
@@ -19,13 +24,14 @@
 }
 
 .input{
-    padding: 0.3rem;
-    width: 100%;
+    /* padding: 0.3rem; */
+    margin: auto;
+    width: 90%;
 }
 
 .input input{
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0.2rem;
     border-color: rgb(128, 128, 128);
     height: 1.5rem;
@@ -37,10 +43,18 @@
     font-size: medium;
     font-weight: 500;
 }
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
 
 .btnContainer button{
-    width:82px;
-    height: 32px;
-    border-radius: 10px;
+    width:3.9rem;
+    height: 1.8rem;
+    border-radius: 3.5px;
     border-style: none;
+    position: absolute;
+    bottom: 1.2rem;
 }

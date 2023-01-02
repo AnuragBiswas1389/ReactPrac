@@ -1,4 +1,5 @@
 import style from "./StyleSheets/LoginComponent.module.css";
+import SingupStyle from './StyleSheets/Signup.module.css';
 
 function SignupComponent() {
   function submitForm(e) {
@@ -8,9 +9,9 @@ function SignupComponent() {
 
   return (
     <>
-      <div className={style.container}>
+      <div className={style["container"]+" "+SingupStyle["container"]}>
         <form onSubmit={submitForm}>
-          <p className={style.log}>Login to continue</p>
+          <p className={style.log}>Singup to continue</p>
           <div className={style.input}>
             <p>Email ID</p>
             <input type="text" placeholder="Email ID"></input>

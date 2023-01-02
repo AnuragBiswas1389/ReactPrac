@@ -1,12 +1,19 @@
 import "./App.css";
-import Login from './Pages/Login'
-import Signup from "./Pages/Signup";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Account from "./Pages/Account";
+import AddTask from "./Pages/AddTask";
+import Home from "./Pages/Home";
 function App() {
   return (
-    <div>
-      <Login></Login>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="AddTask" element={<AddTask />} />
+          <Route path="Account" element={<Account />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
