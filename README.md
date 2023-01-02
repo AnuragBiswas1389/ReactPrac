@@ -1,2 +1,2 @@
 # ReactPrac
-All projects that are done for practicing react.
+All projects that are done for practising react.
