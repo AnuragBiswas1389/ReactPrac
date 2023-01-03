@@ -10,10 +10,10 @@ ul {
 li {
   color: black;
   font-weight: 900;
-  background-color: rgb(158, 68, 231);
+  background-color: rgb(218, 92, 92);
   margin: 4px;
   padding: 4px;
-  color: whitesmoke;
+  color: rgb(230, 81, 81);
   font-size: small;
   font-weight: 400;
   cursor: pointer;
@@ -27,11 +27,11 @@ li {
     text-decoration: none;
 }
 li:hover {
-  background-color: rgb(140, 31, 230);
+  background-color: rgb(236, 69, 69);
 }
 li:active {
-  background-color: rgb(118, 8, 207);
+  background-color: rgb(223, 67, 67);
 }
 .container {
-  background-color: rgba(242, 242, 243, 0.863);
+  background-color: rgb(218, 92, 92);
 }

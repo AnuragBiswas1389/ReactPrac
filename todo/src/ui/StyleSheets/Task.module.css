@@ -1,10 +1,48 @@
 .container{
-    background-color: rgb(0, 83, 190);
-    margin: 1rem;
+    background-color: rgb(218, 92, 92);
+    margin-: 1rem;
     width: 80%;
+    padding: 5px;
+    color:whitesmoke;
+    border-radius: 3px;
+    position: relative;
+}
+
+.container p{
+    margin: 0.1rem;
 }
 
 .taskTitle{
-    background-color: rgb(214, 163, 255);
-    padding: 0.1px;
+   font-size: x-large;
+   font-weight: 450;
+}
+.taskDesc{
+    font-size: medium;
+}
+.taskDetails{
+    font-size: x-small;
+    display: flex;
+    flex-direction: row;
+}
+.taskDone{
+    position: absolute;
+    right: 1rem;
+    top: 40%;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(252, 252, 252);
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.taskDone:hover{
+    background-color:rgb(236, 232, 232);
+}
+.taskDone:active{
+    background-color:rgba(192, 190, 190, 0.795);
+}
+
+.taskDuration{
+    margin-right: 0.8rem;
+    
 }

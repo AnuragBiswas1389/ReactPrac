@@ -1,60 +1,60 @@
-.container{
-    background-color: rgb(85, 82, 245);
-    color: whitesmoke;
-    /* ----login container dimenstions */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 19.5rem;
-    height: 22rem;
-    margin: auto;
-    margin-top: 5rem;
-    padding: 0.5rem;
-    border-radius: 0.2rem;
-    position: relative;
-    align-content: space-between;
-    box-sizing:border-box
+.container {
+  background-color: rgb(218, 92, 92);
+  color: whitesmoke;
+  /* ----login container dimenstions */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 19.5rem;
+  height: 22rem;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  position: relative;
+  align-content: space-between;
+  box-sizing: border-box;
 }
 
-.log{
-    font-size: xx-large;
-    font-weight: 500;
-    text-align: center;
-    width: 100%;
+.log {
+  font-size: xx-large;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
 }
 
-.input{
-    /* padding: 0.3rem; */
-    margin: auto;
-    width: 90%;
+.input {
+  /* padding: 0.3rem; */
+  margin: auto;
+  width: 90%;
 }
 
-.input input{
-    border-style: solid;
-    border-radius: 5px;
-    padding: 0.2rem;
-    border-color: rgb(128, 128, 128);
-    height: 1.5rem;
-    text-align: center;
-    width: 100%;
+.input input {
+  border-style: solid;
+  border-radius: 5px;
+  padding: 0.2rem;
+  border: none;
+  height: 1.5rem;
+  text-align: center;
+  width: 100%;
 }
 
-.input p{
-    font-size: medium;
-    font-weight: 500;
+.input p {
+  font-size: medium;
+  font-weight: 500;
 }
-.btnContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0.5rem;
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
 }
 
-.btnContainer button{
-    width:3.9rem;
-    height: 1.8rem;
-    border-radius: 3.5px;
-    border-style: none;
-    position: absolute;
-    bottom: 1.2rem;
+.btnContainer button {
+  width: 3.9rem;
+  height: 1.8rem;
+  border-radius: 3.5px;
+  border-style: none;
+  position: absolute;
+  bottom: 1.2rem;
 }
